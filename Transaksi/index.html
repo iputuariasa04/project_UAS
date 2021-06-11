@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="header">
+                <div class="logo">
+                    <img src="../img/warna.png" alt="" width="150px" height="auto">
+                </div>
+                <div class="profil">
+                    <a href="">Unknow</a>
+                    <img class="icon" src="../img/gender.png" alt="">
+                    <input type="checkbox">
+                </div>
+                <div class="alert">
+                    <img src="../img/gender.png" alt="" width="100px" height="auto">
+                    <div class="button">
+                        <a href=""><button>View Profil</button></a>
+                        <a href=""><button>Logout</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="../Dashboard/index.html">Home</a></li>
+                    <li><a href="../Tiket/index.html">Tiket</a></li>
+                    <li><a href="../Transaksi/index.html">Transaksi</a></li>
+                    <li><a href="../About/index.html">About</a></li>
+                </ul>
+    
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <div class="search">
+                    <button type="submit">
+                        <img src="../img/search.png" alt="">
+                    </button>
+                    <input type="text" name="" id="">
+                </div>
+            </div>
+          </div>
+          <!-- Akhir navbar -->
+        <div class="kotak">
+            <div class="trx">
+                <div class="title"><b>Internet TV Kabel</b> <span class="tx14">IVR/254525325/XXI/VI/23235252</span></div>
+                <div class="subtitle">7 Jun 2021 <span class="badge-success">Berhasil</span></div>
+                <div class="garis"></div>
+                <div class="ratakanan">
+                    <a href="" class="btn btn-primary">Lihat Detail Transaksi</a><a href="" class="btn btn-success">Beli Lagi</a><a href="" class="btn">Lacak</a>
+                </div>
+            </div>
+            <!-- End TRX-->
+            <div class="trx">
+                <div class="title"><b>Internet TV Kabel</b> <span class="tx14">IVR/254525325/XXI/VI/23235252</span></div>
+                <div class="subtitle">7 Jun 2021 <span class="badge-success">Berhasil</span></div>
+                <div class="garis"></div>
+                <div class="ratakanan">
+                    <a href="" class="btn btn-primary">Lihat Detail Transaksi</a><a href="" class="btn btn-success">Beli Lagi</a><a href="" class="btn">Lacak</a>
+                </div>
+            </div>
+            <!-- End TRX-->
+            <div class="trx">
+                <div class="title"><b>Internet TV Kabel</b> <span class="tx14">IVR/254525325/XXI/VI/23235252</span></div>
+                <div class="subtitle">7 Jun 2021 <span class="badge-success">Berhasil</span></div>
+                <div class="garis"></div>
+                <div class="ratakanan">
+                    <a href="" class="btn btn-primary">Lihat Detail Transaksi</a><a href="" class="btn btn-success">Beli Lagi</a><a href="" class="btn">Lacak</a>
+                </div>
+            </div>
+            <!-- End TRX-->
+            <div class="trx">
+                <div class="title"><b>Internet TV Kabel</b> <span class="tx14">IVR/254525325/XXI/VI/23235252</span></div>
+                <div class="subtitle">7 Jun 2021 <span class="badge-success">Berhasil</span></div>
+                <div class="garis"></div>
+                <div class="ratakanan">
+                    <a href="" class="btn btn-primary">Lihat Detail Transaksi</a><a href="" class="btn btn-success">Beli Lagi</a><a href="" class="btn">Lacak</a>
+                </div>
+            </div>
+            <!-- End TRX-->
+            <div class="trx">
+                <div class="title"><b>Internet TV Kabel</b> <span class="tx14">IVR/254525325/XXI/VI/23235252</span></div>
+                <div class="subtitle">7 Jun 2021 <span class="badge-success">Berhasil</span></div>
+                <div class="garis"></div>
+                <div class="ratakanan">
+                    <a href="" class="btn btn-primary">Lihat Detail Transaksi</a><a href="" class="btn btn-success">Beli Lagi</a><a href="" class="btn">Lacak</a>
+                </div>
+            </div>
+            <!-- End TRX-->
+        </div>
+        <div class="footer">
+            <span>Copyright Tiket Store 2021</span>
+        </div>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('.navbar ul');
+  
+        menuToggle.addEventListener('click', function(){
+            nav.classList.toggle('menuSlide');
+        });
+  
+        const logout = document.querySelector('.profil input');
+        const info = document.querySelector('.alert');
+  
+        logout.addEventListener('click', function(){
+          info.classList.toggle('efek');
+        })
+    </script>
+</body>
+</html>
